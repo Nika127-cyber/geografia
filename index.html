@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პერუს გეოგრაფია | Geografía del Perú</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">🇵🇪 პერუ • გეოგრაფია</div>
+            <ul class="nav-links">
+                <li><a href="#overview">მიმოხილვა</a></li>
+                <li><a href="#regions">ბუნებრივი რეგიონები</a></li>
+                <li><a href="#waters">მდინარეები და ტბები</a></li>
+                <li><a href="#climate">კლიმატი</a></li>
+                <li><a href="#quiz">ვიქტორინა</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>პერუს გეოგრაფიული სამყარო</h1>
+            <p>წყნარი ოკეანის სანაპიროდან ანდების მწვერვალებამდე და ამაზონის ტროპიკულ ტყეებამდე</p>
+            <a href="#overview" class="btn">აღმოაჩინე მეტი</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="overview" class="container section">
+            <h2>ზოგადი გეოგრაფიული მიმოხილვა</h2>
+            <p class="lead">
+                პერუ (ოფიციალურად პერუს რესპუბლიკა) მდებარეობს სამხრეთ ამერიკის დასავლეთ ნაწილში. იგი ფართობით მესამე უდიდესი ქვეყანაა კონტინენტზე (ბრაზილიისა და არგენტინის შემდეგ) და გამოირჩევა მსოფლიოში ერთ-ერთი ყველაზე მრავალფეროვანი ლანდშაფტითა და ბიომრავალფეროვნებით.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">1,285,216 კმ²</span>
+                    <span class="stat-label">საერთო ფართობი</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">6,768 მ</span>
+                    <span class="stat-label">უმაღლესი წერტილი (უასკარანი)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2,414 კმ</span>
+                    <span class="stat-label">სანაპირო ზოლის სიგრძე</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">5 ქვეყანა</span>
+                    <span class="stat-label">სახმელეთო მეზობლები</span>
+                </div>
+            </div>
+
+            <div class="borders-box">
+                <h3>საზღვრები და მდებარეობა</h3>
+                <ul>
+                    <li><strong>ჩრდილოეთით:</strong> ეკვადორი და კოლუმბია</li>
+                    <li><strong>აღმოსავლეთით:</strong> ბრაზილია</li>
+                    <li><strong>სამხრეთ-აღმოსავლეთით:</strong> ბოლივია</li>
+                    <li><strong>სამხრეთით:</strong> ჩილე</li>
+                    <li><strong>დასავლეთით:</strong> წყნარი ოკეანე</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="regions" class="section bg-light">
+            <div class="container">
+                <h2>სამი მთავარი ბუნებრივი რეგიონი</h2>
+                <p class="section-subtitle">ტრადიციულად პერუს ტერიტორია იყოფა სამ მკვეთრად განსხვავებულ გეოგრაფიულ ზონად:</p>
+                
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="openRegion(event, 'costa')">1. კოსტა (სანაპირო)</button>
+                    <button class="tab-btn" onclick="openRegion(event, 'sierra')">2. სიერა (ანდები)</button>
+                    <button class="tab-btn" onclick="openRegion(event, 'selva')">3. სელვა (ამაზონია)</button>
+                </div>
+
+                <div id="costa" class="region-content active">
+                    <div class="region-info">
+                        <h3>კოსტა (La Costa) — სანაპირო ზოლი</h3>
+                        <p><strong>ფართობი:</strong> ქვეყნის ტერიტორიის დაახლოებით 11.7%</p>
+                        <p>კოსტა წარმოადგენს ვიწრო, უდაბნოს ტიპის სანაპირო ზოლს წყნარ ოკეანესა და ანდების მთისწინეთს შორის. ჰუმბოლდტის ცივი დინების გავლენით, აქ ნალექები ძალიან მცირეა, რის გამოც ჩამოყალიბდა სეჩურასა და ატაკამას ჩრდილოეთი უდაბნოები.</p>
+                        <ul>
+                            <li>მდიდარია ოაზისებით, რომლებსაც ანდებიდან მომდინარე მდინარეები კვებავს.</li>
+                            <li>აქ მდებარეობს დედაქალაქი <strong>ლიმა</strong> და ქვეყნის მოსახლეობის ნახევარზე მეტი.</li>
+                            <li>წყნარი ოკეანის სანაპირო წყლები მსოფლიოში ერთ-ერთი უმდიდრესია თევზის რესურსებით.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="sierra" class="region-content">
+                    <div class="region-info">
+                        <h3>სიერა (La Sierra) — ანდების მთიანეთი</h3>
+                        <p><strong>ფართობი:</strong> ქვეყნის ტერიტორიის დაახლოებით 28%</p>
+                        <p>ანდების მთათა სისტემა პერუს ჩრდილოეთიდან სამხრეთისკენ კვეთს და ქმნის ორ პარალელურ ქედს — დასავლეთ და აღმოსავლეთ კორდილიერებს, მათ შორის კი მაღალმთიანი პლატო <strong>ალტიპლანო</strong> მდებარეობს.</p>
+                        <ul>
+                            <li>უმაღლესი მწვერვალია <strong>უასკარანი</strong> (6,768 მ) კორდილიერა-ბლანკას ქედზე.</li>
+                            <li>რეგიონში გვხვდება ღრმა კანიონები (მაგ. კოლკას კანიონი, რომელიც ორჯერ ღრმაა გრანდ კანიონზე).</li>
+                            <li>აქ მდებარეობს ინკების ისტორიული დედაქალაქი <strong>კუსკო</strong> და მაჩუ-პიქჩუ.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="selva" class="region-content">
+                    <div class="region-info">
+                        <h3>სელვა (La Selva) — ამაზონის ტროპიკული ტყე</h3>
+                        <p><strong>ფართობი:</strong> ქვეყნის ტერიტორიის დაახლოებით 60.3%</p>
+                        <p>ანდების აღმოსავლეთით გადაჭიმულია ვრცელი, გაუვალი და ნოტიო ეკვატორული ტყეები — ამაზონის დაბლობი. მიუხედავად იმისა, რომ იგი ტერიტორიის უდიდეს ნაწილს იკავებს, აქ მოსახლეობის მხოლოდ მცირე ნაწილი ცხოვრობს.</p>
+                        <ul>
+                            <li>იყოფა ორ ნაწილად: მაღალი სელვა (Selva Alta — მთისწინეთის ტყეები) და დაბალი სელვა (Selva Baja — ვაკე ჯუნგლები).</li>
+                            <li>გამოირჩევა ფლორისა და ფაუნის უნიკალური მრავალფეროვნებით (მანუსა და ტამბოპატას ნაკრძალები).</li>
+                            <li>მთავარი ქალაქია <strong>იკიტოსი</strong> — მსოფლიოს უდიდესი ქალაქი, რომელთანაც საავტომობილო გზა არ მიდის.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="waters" class="container section">
+            <h2>ჰიდროგრაფია: მდინარეები და ტბები</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>🌊 მდინარე ამაზონი</h3>
+                    <p>მსოფლიოს ყველაზე წყალუხვი მდინარე სწორედ პერუს ანდებში იღებს სათავეს (მდინარეების — მარანიონისა და უკაიალის შეერთებით). პერუს მდინარეების უმეტესობა ატლანტის ოკეანის აუზს მიეკუთვნება.</p>
+                </div>
+                <div class="card">
+                    <h3>🏔️ ტბა ტიტიკაკა</h3>
+                    <p>მდებარეობს პერუსა და ბოლივიის საზღვარზე, ზღვის დონიდან 3,812 მეტრზე. იგი მსოფლიოში ყველაზე მაღლა მდებარე სანაოსნო ტბა და სამხრეთ ამერიკის უდიდესი მტკნარი წყლის რეზერვუარია.</p>
+                </div>
+                <div class="card">
+                    <h3>🏜️ წყნარი ოკეანის აუზი</h3>
+                    <p>ანდების დასავლეთ კალთებიდან წყნარ ოკეანეში ჩაედინება 50-ზე მეტი მოკლე და სწრაფი მდინარე (მაგ. რიმაკი, სანტა), რომლებიც სასიცოცხლოდ მნიშვნელოვანია სანაპირო ოაზისების სარწყავად.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="climate" class="section bg-light">
+            <div class="container">
+                <h2>კლიმატური ზონები</h2>
+                <p>მიუხედავად იმისა, რომ პერუ ეკვატორთან ახლოს მდებარეობს, ანდების სიმაღლე და ოკეანის დინებები ქმნის 28 სხვადასხვა მიკროკლიმატს (მსოფლიოში არსებული 32-დან):</p>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>რეგიონი</th>
+                                <th>კლიმატის ტიპი</th>
+                                <th>საშუალო ტემპერატურა</th>
+                                <th>ნალექები</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>კოსტა</strong></td>
+                                <td>სუბტროპიკული უდაბნოს</td>
+                                <td>18°C – 25°C</td>
+                                <td>ძალიან მწირი (50 მმ-მდე წელიწადში)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>სიერა</strong></td>
+                                <td>ზომიერი მთის / ალპური</td>
+                                <td>5°C – 16°C (სიმაღლის მიხედვით)</td>
+                                <td>სეზონური (წვიმების სეზონი: დეკემბერი–მარტი)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>სელვა</strong></td>
+                                <td>ეკვატორული / ტროპიკული</td>
+                                <td>25°C – 32°C</td>
+                                <td>უხვი (2,000 – 4,000 მმ წელიწადში)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="container section">
+            <h2>შეამოწმე ცოდნა: პერუს გეოგრაფია</h2>
+            <div class="quiz-box" id="quiz-container">
+                <p id="question-text" class="question">კითხვა იტვირთება...</p>
+                <div id="options-container" class="options"></div>
+                <p id="feedback" class="feedback"></p>
+                <button id="next-btn" class="btn btn-small" onclick="nextQuestion()" style="display:none;">შემდეგი კითხვა</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 პერუს გეოგრაფიული გზამკვლევი • შექმნილია საგანმანათლებლო მიზნებისთვის</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
